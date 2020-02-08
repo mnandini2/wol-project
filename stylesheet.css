@@ -1,0 +1,34 @@
+body {
+    overflow: hidden;
+    font-family: 'Permanent Marker', 'Pacifico', 'Montserrat', 'Dank Mono';
+}
+
+#bg {
+    z-index: -1;
+    background: linear-gradient(90deg, #43506C, #3D619B);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+}
+
+#bg-img {
+    position: absolute;
+    margin: 10vh;
+    height: 80vh;
+    right: 0;
+}
+
+#title {
+    font-size: 6em;
+    text-align: center;
+    color: #E9E9EB; /* tomato */
+}
+
+#magnifier {
+    position: absolute;
+    bottom: 0;
+    /* left: -200px; */
+    transform: translate(-40%, 38%) scale(0.35) rotateY(180deg);
+}
