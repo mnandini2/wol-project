@@ -23,7 +23,7 @@ body {
 #title {
     font-size: 6em;
     text-align: center;
-    color: #E9E9EB; /* tomato */
+    color: tomato;
 }
 
 #magnifier {
@@ -31,4 +31,12 @@ body {
     bottom: 0;
     /* left: -200px; */
     transform: translate(-40%, 38%) scale(0.35) rotateY(180deg);
+}
+
+select {
+    appearance: none;
+    border-radius: 100px;
+    border: 2px solid black;
+    box-shadow: inset -4px -8px 8px #00000033;
+    padding: 10px;
 }
